@@ -21,7 +21,7 @@ contract Tether {
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping (address => uint256)) public allowance;
 
-    constructor() {
+    constructor() public {
         balanceOf[msg.sender] = totalSupply;
     }
 
@@ -41,9 +41,9 @@ contract Tether {
 
     function transferFrom(address _from, address _to, uint256 _value) public returns(bool success) {
         require(_value <= balanceOf[_from]);
-        require(_value <= allowance[_from][msg.sender])
+        require(_value <= allowance[_from][msg.sender]);
         balanceOf[_to] += _value;
-        balanceOf[_from] -= _vlaue;
+        balanceOf[_from] -= _value;
         allowance[msg.sender][_from] -= _value;
         emit Transfer(_from, _to, _value);
         return true;
