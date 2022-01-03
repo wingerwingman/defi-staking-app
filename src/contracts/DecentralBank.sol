@@ -1,7 +1,8 @@
 pragma solidity ^0.5.0;
-import './RWD';
-import './Tether';
-import './ClimbCoin';
+
+import './RWD.sol';
+import './Tether.sol';
+import './ClimbCoin.sol';
 
 contract DecentralBank {
     string public name = 'Decentral Bank';
@@ -10,7 +11,7 @@ contract DecentralBank {
     RWD public rwd;
     ClimbCoin public climbcoin;
     
-    constructor(RWD _rwd, Tether _tether, CimbCoin _climbcoin) public {
+    constructor(RWD _rwd, Tether _tether, ClimbCoin _climbcoin) public {
         rwd = _rwd;
         tether = _tether;
         climbcoin = _climbcoin;
