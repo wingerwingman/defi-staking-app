@@ -1,9 +1,9 @@
 pragma solidity ^0.5.0;
 
-contract Tether {
-    string public name = 'Tether';
-    string public symbol = 'USDT';
-    uint256 public totalSupply = 1000000000000000000000000; //1 million tokens
+contract ClimbCoin {
+    string public name = 'Climb Coin';
+    string public symbol = 'cUSDT';
+    uint256 public totalSupply = 10000000000000000000000000; //10 million tokens
     uint8 public decimals = 18;
 
     event Transfer(
