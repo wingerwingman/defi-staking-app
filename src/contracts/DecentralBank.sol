@@ -25,16 +25,16 @@ contract DecentralBank {
 
     function depositTokens(uint _amount) public {
         require(_amount > 0, 'Amount cannot be 0');
-        
-        tether.transerFrom(msg.sender, address(this), _amount);
+
+        tether.transferFrom(msg.sender, address(this), _amount);
 
         stakingBalance[msg.sender] = stakingBalance[msg.sender] + _amount;
 
-        if(!hasStaked) {
-            staker.push[msg.sender];
+        if(!hasStaked[msg.sender]) {
+            stakers.push(msg.sender);
         }
 
-        isStaking[msg.sender] = true;
+        isStaked[msg.sender] = true;
         hasStaked[msg.sender] = true;
     }
 
