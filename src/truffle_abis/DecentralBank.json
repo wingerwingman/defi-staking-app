@@ -250,7 +250,7 @@
         "id": 183,
         "nodeType": "ImportDirective",
         "scope": 395,
-        "sourceUnit": 633,
+        "sourceUnit": 576,
         "src": "25:19:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -261,7 +261,7 @@
         "id": 184,
         "nodeType": "ImportDirective",
         "scope": 395,
-        "sourceUnit": 814,
+        "sourceUnit": 757,
         "src": "45:22:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -370,7 +370,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Tether_$813",
+              "typeIdentifier": "t_contract$_Tether_$756",
               "typeString": "contract Tether"
             },
             "typeName": {
@@ -378,10 +378,10 @@
               "id": 191,
               "name": "Tether",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 813,
+              "referencedDeclaration": 756,
               "src": "193:6:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Tether_$813",
+                "typeIdentifier": "t_contract$_Tether_$756",
                 "typeString": "contract Tether"
               }
             },
@@ -398,7 +398,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_RWD_$632",
+              "typeIdentifier": "t_contract$_RWD_$575",
               "typeString": "contract RWD"
             },
             "typeName": {
@@ -406,10 +406,10 @@
               "id": 193,
               "name": "RWD",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 632,
+              "referencedDeclaration": 575,
               "src": "219:3:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_RWD_$632",
+                "typeIdentifier": "t_contract$_RWD_$575",
                 "typeString": "contract RWD"
               }
             },
@@ -639,7 +639,7 @@
                       "referencedDeclaration": 194,
                       "src": "530:3:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_RWD_$632",
+                        "typeIdentifier": "t_contract$_RWD_$575",
                         "typeString": "contract RWD"
                       }
                     },
@@ -654,13 +654,13 @@
                       "referencedDeclaration": 213,
                       "src": "536:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_RWD_$632",
+                        "typeIdentifier": "t_contract$_RWD_$575",
                         "typeString": "contract RWD"
                       }
                     },
                     "src": "530:10:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_RWD_$632",
+                      "typeIdentifier": "t_contract$_RWD_$575",
                       "typeString": "contract RWD"
                     }
                   },
@@ -685,7 +685,7 @@
                       "referencedDeclaration": 192,
                       "src": "550:6:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Tether_$813",
+                        "typeIdentifier": "t_contract$_Tether_$756",
                         "typeString": "contract Tether"
                       }
                     },
@@ -700,13 +700,13 @@
                       "referencedDeclaration": 215,
                       "src": "559:7:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Tether_$813",
+                        "typeIdentifier": "t_contract$_Tether_$756",
                         "typeString": "contract Tether"
                       }
                     },
                     "src": "550:16:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Tether_$813",
+                      "typeIdentifier": "t_contract$_Tether_$756",
                       "typeString": "contract Tether"
                     }
                   },
@@ -791,7 +791,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 828,
+                        "referencedDeclaration": 771,
                         "src": "616:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -845,7 +845,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_RWD_$632",
+                    "typeIdentifier": "t_contract$_RWD_$575",
                     "typeString": "contract RWD"
                   },
                   "typeName": {
@@ -853,10 +853,10 @@
                     "id": 212,
                     "name": "RWD",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 632,
+                    "referencedDeclaration": 575,
                     "src": "465:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_RWD_$632",
+                      "typeIdentifier": "t_contract$_RWD_$575",
                       "typeString": "contract RWD"
                     }
                   },
@@ -873,7 +873,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Tether_$813",
+                    "typeIdentifier": "t_contract$_Tether_$756",
                     "typeString": "contract Tether"
                   },
                   "typeName": {
@@ -881,10 +881,10 @@
                     "id": 214,
                     "name": "Tether",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 813,
+                    "referencedDeclaration": 756,
                     "src": "475:6:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Tether_$813",
+                      "typeIdentifier": "t_contract$_Tether_$756",
                       "typeString": "contract Tether"
                     }
                   },
@@ -1028,10 +1028,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        831,
-                        832
+                        774,
+                        775
                       ],
-                      "referencedDeclaration": 832,
+                      "referencedDeclaration": 775,
                       "src": "693:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1068,7 +1068,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "766:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1098,7 +1098,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 848,
+                            "referencedDeclaration": 791,
                             "src": "786:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_DecentralBank_$394",
@@ -1178,7 +1178,7 @@
                         "referencedDeclaration": 192,
                         "src": "746:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Tether_$813",
+                          "typeIdentifier": "t_contract$_Tether_$756",
                           "typeString": "contract Tether"
                         }
                       },
@@ -1189,7 +1189,7 @@
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 812,
+                      "referencedDeclaration": 755,
                       "src": "746:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -1246,7 +1246,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "827:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1315,7 +1315,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 828,
+                            "referencedDeclaration": 771,
                             "src": "856:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1414,7 +1414,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "902:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1472,7 +1472,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 828,
+                                "referencedDeclaration": 771,
                                 "src": "942:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1581,7 +1581,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "983:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1675,7 +1675,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "1021:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1854,7 +1854,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 828,
+                        "referencedDeclaration": 771,
                         "src": "1124:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1977,10 +1977,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        831,
-                        832
+                        774,
+                        775
                       ],
-                      "referencedDeclaration": 832,
+                      "referencedDeclaration": 775,
                       "src": "1145:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2017,7 +2017,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "1233:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2072,7 +2072,7 @@
                         "referencedDeclaration": 192,
                         "src": "1217:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Tether_$813",
+                          "typeIdentifier": "t_contract$_Tether_$756",
                           "typeString": "contract Tether"
                         }
                       },
@@ -2083,7 +2083,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 724,
+                      "referencedDeclaration": 667,
                       "src": "1217:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -2140,7 +2140,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "1279:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2234,7 +2234,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 828,
+                          "referencedDeclaration": 771,
                           "src": "1314:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2352,7 +2352,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 828,
+                            "referencedDeclaration": 771,
                             "src": "1394:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2428,10 +2428,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        831,
-                        832
+                        774,
+                        775
                       ],
-                      "referencedDeclaration": 832,
+                      "referencedDeclaration": 775,
                       "src": "1386:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2763,7 +2763,7 @@
                                     "referencedDeclaration": 194,
                                     "src": "1644:3:1",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_RWD_$632",
+                                      "typeIdentifier": "t_contract$_RWD_$575",
                                       "typeString": "contract RWD"
                                     }
                                   },
@@ -2774,7 +2774,7 @@
                                   "lValueRequested": false,
                                   "memberName": "transfer",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 543,
+                                  "referencedDeclaration": 486,
                                   "src": "1644:12:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -3016,7 +3016,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 633,
+          "SourceUnit": 576,
           "absolutePath": "project:/src/contracts/RWD.sol",
           "file": "./RWD.sol",
           "scope": 395,
@@ -3031,7 +3031,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 814,
+          "SourceUnit": 757,
           "absolutePath": "project:/src/contracts/Tether.sol",
           "file": "./Tether.sol",
           "scope": 395,
@@ -3162,7 +3162,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Tether",
-                  "referencedDeclaration": 813,
+                  "referencedDeclaration": 756,
                   "type": "contract Tether"
                 },
                 "id": 191,
@@ -3190,7 +3190,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "RWD",
-                  "referencedDeclaration": 632,
+                  "referencedDeclaration": 575,
                   "type": "contract RWD"
                 },
                 "id": 193,
@@ -3437,7 +3437,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "RWD",
-                          "referencedDeclaration": 632,
+                          "referencedDeclaration": 575,
                           "type": "contract RWD"
                         },
                         "id": 212,
@@ -3465,7 +3465,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Tether",
-                          "referencedDeclaration": 813,
+                          "referencedDeclaration": 756,
                           "type": "contract Tether"
                         },
                         "id": 214,
@@ -3721,7 +3721,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 828,
+                                  "referencedDeclaration": 771,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -3846,10 +3846,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                831,
-                                832
+                                774,
+                                775
                               ],
-                              "referencedDeclaration": 832,
+                              "referencedDeclaration": 775,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -3973,7 +3973,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transferFrom",
-                              "referencedDeclaration": 812,
+                              "referencedDeclaration": 755,
                               "type": "function (address,address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -4014,7 +4014,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 828,
+                                  "referencedDeclaration": 771,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4067,7 +4067,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 848,
+                                  "referencedDeclaration": 791,
                                   "type": "contract DecentralBank",
                                   "value": "this"
                                 },
@@ -4159,7 +4159,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4234,7 +4234,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 828,
+                                          "referencedDeclaration": 771,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -4340,7 +4340,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4436,7 +4436,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 828,
+                                          "referencedDeclaration": 771,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -4524,7 +4524,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4624,7 +4624,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4794,7 +4794,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 828,
+                                  "referencedDeclaration": 771,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4847,10 +4847,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                831,
-                                832
+                                774,
+                                775
                               ],
-                              "referencedDeclaration": 832,
+                              "referencedDeclaration": 775,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4970,7 +4970,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transfer",
-                              "referencedDeclaration": 724,
+                              "referencedDeclaration": 667,
                               "type": "function (address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -5011,7 +5011,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 828,
+                                  "referencedDeclaration": 771,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -5103,7 +5103,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5203,7 +5203,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5328,10 +5328,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                831,
-                                832
+                                774,
+                                775
                               ],
-                              "referencedDeclaration": 832,
+                              "referencedDeclaration": 775,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -5372,7 +5372,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 828,
+                                      "referencedDeclaration": 771,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5885,7 +5885,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "transfer",
-                                              "referencedDeclaration": 543,
+                                              "referencedDeclaration": 486,
                                               "type": "function (address,uint256) external returns (bool)"
                                             },
                                             "children": [
@@ -5990,9 +5990,17 @@
     "name": "solc",
     "version": "0.5.17+commit.d19bba13.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xbE4049FFB36DC8a45089E09cfFeb972751963516",
+      "transactionHash": "0x1d13cef1ad3b3177dff23e89405d98a57823b5fb023c96399680f0339021be65"
+    }
+  },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-10T19:21:18.372Z",
+  "updatedAt": "2022-01-10T20:07:46.645Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
