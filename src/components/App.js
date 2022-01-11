@@ -6,6 +6,7 @@ import Tether from '../truffle_abis/Tether.json';
 import RWD from '../truffle_abis/RWD.json';
 import ClimbCoin from '../truffle_abis/ClimbCoin.json';
 import DecentralBank from '../truffle_abis/DecentralBank.json';
+import Main from './Main.js';
 
 class App extends Component {
 
@@ -78,6 +79,22 @@ class App extends Component {
         this.setState({loading: false})
     }
 
+    stakeTokens = (amount) => {
+        this.setState({loading: true})
+        this.state.tether.methods.approve(this.state.decentralBank._address, amount).send({from: this.state.account}).on('transactionHash', (hash) => {
+            this.state.decentralBank.methods.depositTokens(amount).send({from: this.state.account}).on('transactionHash', (hash) => {
+                this.setState({loading: false})
+            })
+        })
+    }
+
+    unstakeTokens = () => {
+        this.setState({loading: true})
+            this.state.decentralBank.methods.unstakeTokens().send({from: this.state.account}).on('transactionHash', (hash) => {
+                this.setState({loading: false})
+            })
+    }
+
     constructor(props) {
         super(props)
         this.state = {
@@ -95,12 +112,32 @@ class App extends Component {
     }
 
     render () {
+        let content 
+        {this.state.loading ? content = 
+        <p id='loader' className='text-center' style={{margin: '30px'}}>
+            Loading....</p> : content = 
+            <Main 
+                tetherBalance = {this.state.tetherBalance}
+                rwdBalance = {this.state.rwdBalance}
+                climbCoinBalance = {this.state.climbCoinBalance}
+                stakingBalance = {this.state.stakingBalance}
+                stakeTokens = {this.stakeTokens}
+                unstakeTokens={this.unstakeTokens}
+        />}
+
         return (
             <div>
                 <Navbar account={this.state.account} />
-                <h1>
-                    {this.state.loading}
-                </h1>
+                <div className='container-fluid mt-5'>
+                    <div className='row'>
+                        <main role='main' classNmae='col-lg-12 ml-auto mr-auto' sytle={{maxWidth:'600px', minHeight:'100vm'}}>
+                            <div>
+                                {content}
+                            </div>
+                        </main>
+                    </div>
+                </div>
+
             </div>
         )
     }
