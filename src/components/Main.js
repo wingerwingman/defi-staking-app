@@ -6,9 +6,11 @@ class Main extends Component {
 
         return (
             <div id='content' className='mt-3'>
-                <table className='table text-muted text-center'>
+                <br/>
+                <br/>
+                <table className='table text-muted text-center' class="centered" style={{opacity:'.90'}}>
                     <thead>
-                        <tr style={{color: 'black'}}>
+                        <tr style={{color: 'white'}}>
                             <th scope='col'>
                                 Staking Balance
                             </th>
@@ -21,7 +23,7 @@ class Main extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr style={{color: 'black'}}>
+                        <tr style={{color: 'white'}}>
                             <td>
                                 {window.web3.utils.fromWei(this.props.stakingBalance, 'Ether')} USDT
                             </td>

@@ -7,6 +7,7 @@ import RWD from '../truffle_abis/RWD.json';
 import ClimbCoin from '../truffle_abis/ClimbCoin.json';
 import DecentralBank from '../truffle_abis/DecentralBank.json';
 import Main from './Main.js';
+import ParticleSettings from './ParticleSettings.js'
 
 class App extends Component {
 
@@ -114,8 +115,8 @@ class App extends Component {
     render () {
         let content 
         {this.state.loading ? content = 
-        <p id='loader' className='text-center' style={{margin: '30px'}}>
-            Loading....</p> : content = 
+        <h1 id='loader' class="centered" className='text-center' style={{margin: '30px', color: 'red', opacity:'.9'}}>
+            Loading....</h1> : content = 
             <Main 
                 tetherBalance = {this.state.tetherBalance}
                 rwdBalance = {this.state.rwdBalance}
@@ -126,9 +127,14 @@ class App extends Component {
         />}
 
         return (
-            <div>
+            <div className='App' style={{position: 'relative'}}>
+                <div style={{position: 'absolute'}}>
+                    <ParticleSettings />
+                </div>
+                
                 <Navbar account={this.state.account} />
-                <div className='container-fluid mt-5'>
+            
+                <div className='container-fluid mt-5' class="centered">
                     <div className='row'>
                         <main role='main' classNmae='col-lg-12 ml-auto mr-auto' sytle={{maxWidth:'600px', minHeight:'100vm'}}>
                             <div>

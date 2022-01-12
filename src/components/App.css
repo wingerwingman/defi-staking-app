@@ -1,0 +1,7 @@
+.centered {
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+}
