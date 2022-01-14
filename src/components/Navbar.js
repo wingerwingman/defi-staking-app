@@ -6,10 +6,10 @@ class Navbar extends Component {
     render () {
         return (
             <nav className='navbar navbar-dark fixed-top shadow p-0' style={{backgroundColor: "#8c8c8c", height: '50px'}}>
-                <a className='navbar-brand col-sm-3 col-md-2 mr-0'
+                <li className='navbar-brand col-sm-3 col-md-2 mr-0'
                 style={{color:"white"}}><img src={bank} width='50' height='30' className='d-inline-block align-top' alt='Bank' />
                 &nbsp; DAPP Yield Staking (Decentralized Banking) 
-                </a>
+                </li>
                 <ul className='navbar-nav px-3'>
                     <li className='text-nowrap d-none nav-item d-sm-none d-sm-block'>
                         <small style={{color:'white'}}>ACCOUNT NUMBER: {this.props.account}

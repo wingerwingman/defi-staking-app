@@ -9,6 +9,7 @@ import DecentralBank from '../truffle_abis/DecentralBank.json';
 import Main from './Main.js';
 import ParticleSettings from './ParticleSettings.js'
 
+
 class App extends Component {
 
     async UNSAFE_componentWillMount() {
@@ -39,7 +40,6 @@ class App extends Component {
             this.setState({tether})
             let tetherBalance = await tether.methods.balanceOf(this.state.account).call()
             this.setState({tetherBalance: tetherBalance.toString()})
-            console.log({balance: tetherBalance}, 'tether')
         } else {
             window.alert('Error! Tether contract not deployed - no detected network!')
         }
@@ -50,7 +50,6 @@ class App extends Component {
             this.setState({rwd})
             let rwdBalance = await rwd.methods.balanceOf(this.state.account).call()
             this.setState({rwdBalance: rwdBalance.toString()})
-            console.log({balance: rwdBalance}, 'rwd')
         } else {
             window.alert('Error! RWD contract not deployed - no detected network!')
         }
@@ -61,7 +60,6 @@ class App extends Component {
             this.setState({decentralBank})
             let stakingBalance = await decentralBank.methods.stakingBalance(this.state.account).call()
             this.setState({stakingBalance: stakingBalance.toString()})
-            console.log({balance: stakingBalance}, 'staking')
         } else {
             window.alert('Error! Decentral Bank contract not deployed - no detected network!')
         }
@@ -72,7 +70,6 @@ class App extends Component {
             this.setState({climbCoin})
             let climbCoinBalance = await climbCoin.methods.balanceOf(this.state.account).call()
             this.setState({climbCoinBalance: climbCoinBalance.toString()})
-            console.log({balance: climbCoinBalance}, 'climb coin')
         } else {
             window.alert('Error! Climb Coin contract not deployed - no detected network!')
         }
@@ -114,7 +111,7 @@ class App extends Component {
 
     render () {
         let content 
-        {this.state.loading ? content = 
+        this.state.loading ? content = 
         <h1 id='loader' class="centered" className='text-center' style={{margin: '30px', color: 'red', opacity:'.9'}}>
             Loading....</h1> : content = 
             <Main 
@@ -124,7 +121,7 @@ class App extends Component {
                 stakingBalance = {this.state.stakingBalance}
                 stakeTokens = {this.stakeTokens}
                 unstakeTokens={this.unstakeTokens}
-        />}
+        />
 
         return (
             <div className='App' style={{position: 'relative'}}>
